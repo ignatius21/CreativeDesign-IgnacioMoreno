@@ -92,6 +92,7 @@ span{
 
 .navegacion li:hover{
     transform: scale(1.25);
+    transition: transform .5s ease;
 }
 
 /*Estilos navegacion general*/
@@ -563,6 +564,8 @@ span{
 
 .btn-submit:hover{
     color: #242424;
+    transform: scale(1.07);
+    transition: transform .3s ease;
 }
 
 @media(max-width:768px){      
