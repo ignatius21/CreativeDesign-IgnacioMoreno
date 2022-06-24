@@ -1,0 +1,90 @@
+.presentacion-equipo {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-family: $fuentePrincipal;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: $colorEnlaces;
+}
+  
+.contenedor-equipo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+  
+.contenedor-persona {
+    overflow: hidden;
+    border-radius: 6rem 0 6rem 0;
+    width: 100%;
+    height: 100%;
+  
+    &:hover {
+      box-shadow: 0px 0px 35px 0px rgb(134, 134, 134);
+    }
+  
+    img {
+      z-index: -1;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      transition: transform .5s;
+      filter: grayscale(100%);
+    }
+  
+    &:hover img {
+      transform: scale(1.13);
+      filter: grayscale(0%);
+      cursor: pointer;
+    }
+}
+  
+.persona {
+    width: 32rem;
+    height: 35rem;
+    margin: 5rem auto;
+}
+  
+.cargo {
+    color: #858585;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-family: $fuentePrincipal;
+}
+  
+@media (max-width: 768px) {
+    .presentacion-equipo {
+      font-size: 1.1rem;
+    }
+  
+    .contenedor-equipo {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .contenedor-persona {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .persona {
+      width: 25rem;
+      height: auto;
+      margin: 1rem auto;
+    }
+}
+  
+@media (max-width: 425px) {
+    .persona {
+      width: 19rem;
+      height: auto;
+    }
+  
+    .cargo {
+      font-size: 1.1rem;
+    }
+}

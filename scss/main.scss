@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@import './variables/colores';
+@import './variables/fuentes';
+
+
+@import './secciones/equipo';
+@import './secciones/footer';
+@import './secciones/formulario';
+@import './secciones/header';
+@import './secciones/index';
+@import './secciones/nosotros';
+@import './secciones/proyectos';
