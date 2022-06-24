@@ -1,76 +1,76 @@
 .contenido {
-    width: 60rem;
-    height: 57rem;
-    margin: auto auto;
-    padding: 3rem;
+  width: 60rem;
+  height: 57rem;
+  margin: auto auto;
+  padding: 3rem;
 }
   
 .presentacion {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    color: #494949;
-    font-family: $fuentePrincipal;
-    text-transform: uppercase;
-    margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #494949;
+  font-family: $fuentePrincipal;
+  text-transform: uppercase;
+  margin: 1rem;
 }
   
 .titulo {
-    display: flex;
-    justify-content: center;
-    font-family: $fuentePrincipal;
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    background-color: #8d8d8d;
-    color: #5f5f5f;
-    border-radius: 3.8rem;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 27px #d0d0d0, -10px -10px 27px #f0f0f0;
+  display: flex;
+  justify-content: center;
+  font-family: $fuentePrincipal;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  background-color: #8d8d8d;
+  color: #5f5f5f;
+  border-radius: 3.8rem;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 27px #d0d0d0, -10px -10px 27px #f0f0f0;
 }
   
 .introduccion {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    font-family: $fuentePrincipal;
-    font-size: 1.2rem;
-    color: #797979;
-    padding: .5rem;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-family: $fuentePrincipal;
+  font-size: 1.2rem;
+  color: #797979;
+  padding: .5rem;
+  margin: 0 auto;
 }
   
 .imagen img {
-    width: 100%;
-    height: 100%;
-    border-radius: 1.6rem;
-    margin-top: 1rem;
-    filter: grayscale(25%);
+  width: 100%;
+  height: 100%;
+  border-radius: 1.6rem;
+  margin-top: 1rem;
+  filter: grayscale(25%);
 }
   
 @media (max-width: 768px) {
-    .contenido {
-      width: 37rem;
-      height: auto;
-    }
+  .contenido {
+    width: 37rem;
+    height: auto;
+  }
   
-    .presentacion {
-      font-size: 1.2rem;
-    }
+  .presentacion {
+    font-size: 1.2rem;
+  }
 }
   
 @media (max-width: 425px) {
-    .contenido {
-      width: auto;
-      height: auto;
-    }
+  .contenido {
+    width: auto;
+    height: auto;
+  }
   
-    .presentacion {
-      font-size: 1.3rem;
-    }
+  .presentacion {
+    font-size: 1.3rem;
+  }
   
-    .titulo, .introduccion {
-      font-size: 1rem;
-    }
+  .titulo, .introduccion {
+    font-size: 1rem;
+  }
 }
   

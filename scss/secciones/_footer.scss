@@ -1,83 +1,83 @@
 .footer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
   
 .logo {
-    padding: 1rem;
+  padding: 1rem;
   
-    a {
-      text-decoration: none;
-      font-size: 1.8rem;
-      font-family: lobster;
-      color: #888888;
+  a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: $fuenteLogo;
+    color: #888888;
   
-      &:hover {
-        color: #585858;
-      }
+    &:hover {
+      color: #585858;
     }
+  }
 }
   
 .iconos {
-    display: flex;
-    gap: 4rem;
-    align-items: center;
-    margin: 0 auto;
-    margin-right: 3rem;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  margin: 0 auto;
+  margin-right: 3rem;
 }
   
 .facebook svg:hover {
-    transform: scale(1.1);
-    stroke: #3b5998;
+  transform: scale(1.1);
+  stroke: #3b5998;
 }
   
 .instagram svg:hover {
-    transform: scale(1.1);
-    stroke: #a73681;
+  transform: scale(1.1);
+  stroke: #a73681;
 }
   
 .twitter svg:hover {
-    transform: scale(1.1);
-    stroke: #00acee;
+  transform: scale(1.1);
+  stroke: #00acee;
 }
   
 svg:hover {
-    transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
 }
   
 @media (max-width: 768px) {
-    .footer {
-      width: 100%;
-    }
+  .footer {
+    width: 100%;
+  }
   
-    .iconos svg {
-      width: 2rem;
-      height: 2rem;
-    }
+  .iconos svg {
+    width: 2rem;
+    height: 2rem;
+  }
   
-    .logo a {
-      font-size: 1.5rem;
-    }
+  .logo a {
+    font-size: 1.5rem;
+  }
 }
   
 @media (max-width: 425px) {
-    .footer {
-      width: 100%;
-    }
+  .footer {
+    width: 100%;
+  }
   
-    .iconos {
-      gap: 2rem;
-      margin-right: 2rem;
-      align-items: center;
+  .iconos {
+    gap: 2rem;
+    margin-right: 2rem;
+    align-items: center;
   
-      svg {
-        width: 1.2rem;
-        height: 1.2rem;
+    svg {
+      width: 1.2rem;
+      height: 1.2rem;
       }
-    }
+  }
   
-    .logo a {
-      font-size: 1.2rem;
-    }
+  .logo a {
+    font-size: 1.2rem;
+  }
 }

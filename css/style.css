@@ -3,35 +3,35 @@
   padding: 0; }
 
 .presentacion-equipo {
-  display: flex;
   justify-content: center;
   padding-top: 1rem;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #444444; }
+  color: #444444;
+  display: flex; }
 
 .contenedor-equipo {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
-  align-items: center; }
+  align-items: center;
+  display: grid; }
 
 .contenedor-persona {
-  overflow: hidden;
   border-radius: 6rem 0 6rem 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  overflow: hidden; }
   .contenedor-persona:hover {
     box-shadow: 0px 0px 35px 0px #868686; }
   .contenedor-persona img {
-    z-index: -1;
     inset: 0;
     height: 100%;
     width: 100%;
     transition: transform .5s;
-    filter: grayscale(100%); }
+    filter: grayscale(100%);
+    z-index: -1; }
   .contenedor-persona:hover img {
     transform: scale(1.13);
     filter: grayscale(0%);
@@ -80,7 +80,7 @@
   .logo a {
     text-decoration: none;
     font-size: 1.8rem;
-    font-family: lobster;
+    font-family: "lobster";
     color: #888888; }
     .logo a:hover {
       color: #585858; }
@@ -370,7 +370,7 @@ span {
   align-items: center;
   margin: 0 auto;
   padding-right: 3rem;
-  font-family: lobster;
+  font-family: "lobster";
   font-size: 2.6rem;
   background: linear-gradient(0deg, #1d515e 0%, white 100%);
   -webkit-background-clip: text;

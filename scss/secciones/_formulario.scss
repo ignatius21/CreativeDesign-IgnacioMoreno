@@ -1,119 +1,119 @@
 .contacto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    margin: 2rem;
-    font-family: $fuentePrincipal;
-    color: #575757;
-    font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 2rem;
+  font-family: $fuentePrincipal;
+  color: #575757;
+  font-size: 1.5rem;
 }
   
 .contenedor-formulario .formulario {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 60rem;
-    height: 70rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 60rem;
+  height: 70rem;
 }
   
 .form-label {
-    font-family: $fuentePrincipal;
-    font-size: 2.2rem;
-    color: #575757;
+  font-family: $fuentePrincipal;
+  font-size: 2.2rem;
+  color: #575757;
 }
   
 .form-input {
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: .1rem solid #cccccc;
-    width: 100%;
-    margin-bottom: 2rem;
-    color: #4e4e4e;
-    font-size: 1.5rem;
-    font-family: $fuentePrincipal;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: .1rem solid #cccccc;
+  width: 100%;
+  margin-bottom: 2rem;
+  color: #4e4e4e;
+  font-size: 1.5rem;
+  font-family: $fuentePrincipal;
 }
   
 .form-textarea {
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: .1rem solid #cccccc;
-    width: 100%;
-    margin-bottom: 2rem;
-    color: #4e4e4e;
-    font-size: 1.5rem;
-    font-family: $fuentePrincipal;
-    border-radius: .7rem;
-    resize: none;
-    height: 15rem;
-    font-size: 1.3rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: .1rem solid #cccccc;
+  width: 100%;
+  margin-bottom: 2rem;
+  color: #4e4e4e;
+  font-size: 1.5rem;
+  font-family: $fuentePrincipal;
+  border-radius: .7rem;
+  resize: none;
+  height: 15rem;
+  font-size: 1.3rem;
 }
   
 .btn-submit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background-color: transparent;
-    margin: 0 auto;
-    cursor: pointer;
-    font-family: $fuentePrincipal;
-    font-size: 2.8rem;
-    color: #5a5a5a;
-    text-transform: uppercase;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  margin: 0 auto;
+  cursor: pointer;
+  font-family: $fuentePrincipal;
+  font-size: 2.8rem;
+  color: #5a5a5a;
+  text-transform: uppercase;
+  font-weight: bold;
   
-    &:hover {
-      color: #242424;
-      transform: scale(1.07);
-      transition: transform .3s ease;
-    }
+  &:hover {
+    color: #242424;
+    transform: scale(1.07);
+    transition: transform .3s ease;
+  }
 }
   
 @media (max-width: 768px) {
-    .contenedor-formulario .formulario {
-      width: auto;
-      height: auto;
-      margin: 3rem;
-    }
+  .contenedor-formulario .formulario {
+    width: auto;
+    height: auto;
+    margin: 3rem;
+  }
   
-    .contacto {
-      font-size: 1.1rem;
-    }
+  .contacto {
+    font-size: 1.1rem;
+  }
   
-    .btn-submit {
-      font-size: 2.1rem;
-    }
+  .btn-submit {
+    font-size: 2.1rem;
+  }
   
-    .form-label {
-      font-size: 1.3rem;
-    }
+  .form-label {
+    font-size: 1.3rem;
+  }
 }
   
 @media (max-width: 425px) {
-    .contenedor-formulario .formulario {
-      width: 15rem;
-      height: auto;
-      margin: 0 auto;
-    }
+  .contenedor-formulario .formulario {
+    width: 15rem;
+    height: auto;
+    margin: 0 auto;
+  }
   
-    .contacto {
-      font-size: .8rem;
-    }
+  .contacto {
+    font-size: .8rem;
+  }
   
-    .form-input, .form-textarea {
-      font-size: 1.3rem;
-    }
+  .form-input, .form-textarea {
+    font-size: 1.3rem;
+  }
   
-    .btn-submit {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
+  .btn-submit {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
   
-    .form-label {
-      font-size: 1.3rem;
-    }
+  .form-label {
+    font-size: 1.3rem;
+  }
 }
