@@ -1,22 +1,24 @@
-.contacto {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  margin: 2rem;
-  font-family: $fuentePrincipal;
-  color: #575757;
-  font-size: 1.5rem;
-}
-  
-.contenedor-formulario .formulario {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  width: 60rem;
-  height: 70rem;
-}
+.contenedor-formulario{
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 60rem;
+    height: 70rem;
+  }
+
+  .contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 2rem;
+    font-family: $fuentePrincipal;
+    color: #575757;
+    font-size: 1.5rem;
+  }
+} 
   
 .form-label {
   font-family: $fuentePrincipal;
