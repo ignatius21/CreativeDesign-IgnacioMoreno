@@ -31,13 +31,11 @@
   
 .introduccion {
   display: flex;
-  justify-content: center;
-  text-align: justify;
-  font-family: $fuentePrincipal;
-  font-size: 1.2rem;
-  color: #797979;
   padding: .5rem;
   margin: 0 auto;
+  p{
+    @extend %estiloParrafo;
+  }
 }
   
 .imagen img {

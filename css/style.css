@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0; }
 
+.introduccion p {
+  justify-content: center;
+  text-align: justify;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.2rem;
+  color: #797979; }
+
 .presentacion-equipo {
   justify-content: center;
   padding-top: 1rem;
@@ -419,11 +426,6 @@ span {
 
 .introduccion {
   display: flex;
-  justify-content: center;
-  text-align: justify;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 1.2rem;
-  color: #797979;
   padding: .5rem;
   margin: 0 auto; }
 
