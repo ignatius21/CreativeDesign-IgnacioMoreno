@@ -7,7 +7,7 @@
   text-align: justify;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 1.2rem;
-  color: #797979; }
+  color: #858585; }
 
 .presentacion-equipo {
   justify-content: center;
@@ -85,9 +85,9 @@
       text-decoration: none;
       font-size: 1.8rem;
       font-family: "lobster";
-      color: #888888; }
+      color: #b3b3b3; }
       .footer .logo a:hover {
-        color: #585858; }
+        color: #444444; }
 
 .iconos {
   display: flex;
@@ -160,7 +160,7 @@ svg:hover {
   border-bottom: .1rem solid #cccccc;
   width: 100%;
   margin-bottom: 2rem;
-  color: #4e4e4e;
+  color: #444444;
   font-size: 1.5rem;
   font-family: "Barlow Condensed", sans-serif; }
 
@@ -171,7 +171,7 @@ svg:hover {
   border-bottom: .1rem solid #cccccc;
   width: 100%;
   margin-bottom: 2rem;
-  color: #4e4e4e;
+  color: #444444;
   font-size: 1.5rem;
   font-family: "Barlow Condensed", sans-serif;
   border-radius: .7rem;
@@ -189,7 +189,7 @@ svg:hover {
   cursor: pointer;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 2.8rem;
-  color: #5a5a5a;
+  color: #494949;
   text-transform: uppercase;
   font-weight: bold; }
   .btn-submit:hover {
