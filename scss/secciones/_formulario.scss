@@ -16,14 +16,14 @@
     margin: 2rem;
     font-family: $fuentePrincipal;
     color: $gris4;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 } 
   
 .form-label {
   font-family: $fuentePrincipal;
-  font-size: 2.2rem;
-  color: #575757;
+  font-size: 1.8rem;
+  color: $gris7;
 }
   
 .form-input {
@@ -34,7 +34,7 @@
   width: 100%;
   margin-bottom: 2rem;
   color: $gris1;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: $fuentePrincipal;
 }
   
@@ -46,12 +46,11 @@
   width: 100%;
   margin-bottom: 2rem;
   color: $gris1;
-  font-size: 1.5rem;
   font-family: $fuentePrincipal;
   border-radius: .7rem;
   resize: none;
   height: 15rem;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
   
 .btn-submit {

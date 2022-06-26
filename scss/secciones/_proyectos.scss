@@ -71,12 +71,12 @@
 }
   
 @media (max-width: 425px) {
-  .presentacion-proyectos, .titulo-proyecto {
-    font-size: .8rem;
-  }
-  
-  .introduccion-proyecto {
-    font-size: .8rem;
-    padding: .5rem;
-  }
+  .presentacion-proyectos{
+    font-size: 1.1rem;
+
+    .introduccion-proyecto {
+      font-size: .8rem;
+      padding: .5rem;
+    }
+  }  
 }
