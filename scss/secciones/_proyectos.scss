@@ -1,82 +1,81 @@
-.presentacion-proyectos {
+.diseños {
   display: flex;
-  justify-content: center;
-  padding: 3rem;
-  font-family: $fuentePrincipal;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  color: $gris1;
-}
-  
-.contenido-proyecto {
-  width: 80rem;
-  height: 55rem;
-  margin: 4rem auto;
-  
-  .titulo-proyecto {
-    display: flex;
-    justify-content: center;
-    font-family: $fuentePrincipal;
+
+  p {
+    @extend %estiloParrafo;
+  }
+
+  h1 {
+    margin-bottom: 4rem;
+    padding-top: 4rem;
+    color: $gris1;
     text-transform: uppercase;
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-    background: rgb(195, 195, 195);
-    background: linear-gradient(0deg, rgba(195, 195, 195, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
-    color: $gris7;
-    border-radius: 3.8rem;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 27px #d0d0d0, -10px -10px 27px #f0f0f0;
-  }
-
-  .imagen-proyecto img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 1.6rem;
-    box-shadow: 0px 0px 13px -1px rgb(94, 94, 94);
-    
-    &:hover {
-      cursor: pointer;
-    }
-  }
-
-  .introduccion-proyecto {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
     font-family: $fuentePrincipal;
-    font-size: 1.2rem;
-    color: $gris3;
-    padding: 1.5rem;
+    font-size: 3.1rem;
+    font-weight: bold;
+  }
+
+  .intro {
+    font-size: 1.8rem;
+    max-width: 50rem;
+    margin: 0 auto;
+
+  }
+
+  .contenedor-diseño {
+    padding: 5rem 0;
+  }
+
+  .item {
+    margin-bottom: 3rem;
+
+    .box {
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 28rem;
+      position: relative;
+      overflow: hidden;
+      border-radius: 2rem;
+      box-shadow: 0px 0px 33px -3px rgba(0,0,0,0.57);
+
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(31, 210, 255, 0.25);
+      opacity: 0;
+      transition: opacity 0.15s ease-in;
+      padding-top: 10rem;
+      color: rgb(255, 255, 255);
+      text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.75);
+    }
+
+    &:hover .cover {
+      opacity: 1;
+    }
+
+    .nombre {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: $fuentePrincipal;
+      font-size: 4.5rem;   
+    }
   }
 }
 
-  
+
 @media (max-width: 768px) {
-  .contenido-proyecto {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: 3rem;
-
-    .presentacion-proyectos {
-      font-size: 1.1rem;
-    }
-    
-    .titulo-proyecto {
-      font-size: 1.3rem;
-    }
+  .diseños h1 {
+    margin-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    font-size: 2.4rem;
   }
-}
-  
-@media (max-width: 425px) {
-  .presentacion-proyectos{
-    font-size: 1.1rem;
-
-    .introduccion-proyecto {
-      font-size: .8rem;
-      padding: .5rem;
-    }
-  }  
 }
