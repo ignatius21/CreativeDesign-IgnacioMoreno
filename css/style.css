@@ -11,7 +11,7 @@
   color: #858585; }
 
 body {
-  background: linear-gradient(180deg, #f5f1e3 0%, #e0e0e0 100%); }
+  background: linear-gradient(180deg, #fffcd6 0%, #e0e0e0 100%); }
 
 .presentacion-equipo {
   justify-content: center;
@@ -72,11 +72,14 @@ body {
     margin: 1rem auto; } }
 
 @media (max-width: 425px) {
-  .persona {
-    width: 19rem;
-    height: auto; }
-    .persona .cargo {
-      font-size: 1.1rem; } }
+  .contenedor-equipo {
+    margin: .7rem; }
+    .contenedor-equipo .persona {
+      margin: auto;
+      width: 22rem;
+      height: auto; }
+    .contenedor-equipo .cargo {
+      font-size: 1rem; } }
 
 .footer {
   display: flex;

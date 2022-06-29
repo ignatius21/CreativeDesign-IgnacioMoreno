@@ -1,6 +1,6 @@
-@mixin size($width,$heigth){
+@mixin size($width,$height){
     width: $width;
-    height: $heigth;
+    height: $height;
 }
 
 @mixin fondo {

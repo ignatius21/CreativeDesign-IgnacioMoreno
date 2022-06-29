@@ -77,13 +77,16 @@
 }
   
 @media (max-width: 425px) {
-  .persona {
-    @include size(19rem,auto);
-
-    & .cargo {
-      font-size: 1.1rem;
+  .contenedor-equipo{
+    margin: .7rem;
+    .persona {
+      margin: auto;
+      @include size(22rem,auto);
+    }
+    .cargo {
+      font-size: 1rem;
     }
   }
-  
-  
+   
 }
+
