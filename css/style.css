@@ -25,35 +25,34 @@
   gap: 1rem;
   align-items: center;
   display: grid; }
-  .contenedor-equipo .contenedor-persona {
-    border-radius: 6rem 0 6rem 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden; }
-    .contenedor-equipo .contenedor-persona:hover {
-      box-shadow: 0px 0px 35px 0px #868686; }
-    .contenedor-equipo .contenedor-persona img {
-      inset: 0;
-      height: 100%;
+  .contenedor-equipo .persona {
+    width: 32rem;
+    height: 35rem;
+    margin: 5rem auto; }
+    .contenedor-equipo .persona .contenedor-persona {
+      border-radius: 6rem 0 6rem 0;
       width: 100%;
-      transition: transform .5s;
-      filter: grayscale(100%);
-      z-index: -1; }
-    .contenedor-equipo .contenedor-persona:hover img {
-      transform: scale(1.13);
-      filter: grayscale(0%);
-      cursor: pointer; }
-
-.persona {
-  width: 32rem;
-  height: 35rem;
-  margin: 5rem auto; }
-  .persona .cargo {
-    color: #858585;
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.3rem;
-    font-family: "Barlow Condensed", sans-serif; }
+      height: 100%;
+      overflow: hidden; }
+      .contenedor-equipo .persona .contenedor-persona:hover {
+        box-shadow: 0px 0px 35px 0px #868686; }
+      .contenedor-equipo .persona .contenedor-persona img {
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        transition: transform .5s;
+        filter: grayscale(100%);
+        z-index: -1; }
+      .contenedor-equipo .persona .contenedor-persona:hover img {
+        transform: scale(1.13);
+        filter: grayscale(0%);
+        cursor: pointer; }
+    .contenedor-equipo .persona .cargo {
+      color: #858585;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.3rem;
+      font-family: "Barlow Condensed", sans-serif; }
 
 @media (max-width: 768px) {
   .presentacion-equipo {
@@ -73,8 +72,8 @@
   .persona {
     width: 19rem;
     height: auto; }
-  .cargo {
-    font-size: 1.1rem; } }
+    .persona .cargo {
+      font-size: 1.1rem; } }
 
 .footer {
   display: flex;
@@ -170,14 +169,14 @@ svg:hover {
   border: none;
   outline: none;
   border-bottom: .1rem solid #cccccc;
-  width: 100%;
   margin-bottom: 2rem;
   color: #444444;
   font-family: "Barlow Condensed", sans-serif;
   border-radius: .7rem;
   resize: none;
-  height: 15rem;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  width: 100%;
+  height: 15rem; }
 
 .btn-submit {
   display: flex;

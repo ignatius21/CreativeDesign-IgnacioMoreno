@@ -54,8 +54,7 @@ svg:hover {
   }
   
   .iconos svg {
-    width: 2rem;
-    height: 2rem;
+    @include size(2rem,2rem);
   }
   
   .logo a {
@@ -74,8 +73,7 @@ svg:hover {
     align-items: center;
   
     svg {
-      width: 1.2rem;
-      height: 1.2rem;
+      @include size(1.2rem,1.2rem);
       }
   }
   

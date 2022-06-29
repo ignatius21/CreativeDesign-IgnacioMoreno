@@ -67,8 +67,7 @@ span {
   
 @media (max-width: 425px) {
   .header {
-    width: 100vw;
-    height: auto;
+    @include size(100vw,auto);
   }
   
   .navegacion ul {
@@ -165,8 +164,7 @@ span {
   
 @media (max-width: 425px) {
   .header2 {
-    width: 100vw;
-    height: auto;
+    @include size(100vw,auto);
   }
   
   .navegacion2 ul {

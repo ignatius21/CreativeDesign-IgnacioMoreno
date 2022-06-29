@@ -4,8 +4,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 60rem;
-    height: 70rem;
+    @include size(60rem,70rem);
   }
 
   .contacto {
@@ -43,14 +42,13 @@
   border: none;
   outline: none;
   border-bottom: .1rem solid #cccccc;
-  width: 100%;
   margin-bottom: 2rem;
   color: $gris1;
   font-family: $fuentePrincipal;
   border-radius: .7rem;
   resize: none;
-  height: 15rem;
   font-size: 1.8rem;
+  @include size(100%,15rem);
 }
   
 .btn-submit {
@@ -76,8 +74,7 @@
   
 @media (max-width: 768px) {
   .contenedor-formulario .formulario {
-    width: auto;
-    height: auto;
+    @include size(auto,auto);
     margin: 3rem;
   }
   
@@ -96,8 +93,7 @@
   
 @media (max-width: 425px) {
   .contenedor-formulario .formulario {
-    width: 15rem;
-    height: auto;
+    @include size(15rem,auto);
     margin: 0 auto;
   }
   
