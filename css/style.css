@@ -10,6 +10,9 @@
   font-size: 1.2rem;
   color: #858585; }
 
+body {
+  background: linear-gradient(180deg, #f5f1e3 0%, #e0e0e0 100%); }
+
 .presentacion-equipo {
   justify-content: center;
   padding-top: 1rem;

@@ -1,3 +1,7 @@
+body{
+  @extend %estiloFondo;
+}
+
 .contenido {
   @include size(60rem,57rem);
   margin: auto auto;

@@ -3,3 +3,8 @@
     height: $heigth;
 }
 
+@mixin fondo {
+    body{
+        @extend %estiloFondo;
+    }
+}
