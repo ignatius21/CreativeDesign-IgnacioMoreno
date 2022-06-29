@@ -216,6 +216,8 @@ svg:hover {
     width: 15rem;
     height: auto;
     margin: 0 auto; }
+    .contenedor-formulario .formulario .formulario-titulo {
+      font-size: 2.1rem; }
   .contacto {
     font-size: .8rem; }
   .form-input, .form-textarea {
@@ -229,15 +231,6 @@ svg:hover {
 .header {
   display: flex;
   height: 5rem; }
-
-span {
-  border-bottom: 0.1rem solid #b3b3b3;
-  width: 45rem;
-  padding: 1rem;
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 7rem; }
 
 .navegacion {
   display: flex;
@@ -358,6 +351,9 @@ span {
     display: flex;
     flex-wrap: wrap;
     margin-left: .8rem; } }
+
+body {
+  overflow-x: hidden; }
 
 .contenedor-bg {
   display: flex;

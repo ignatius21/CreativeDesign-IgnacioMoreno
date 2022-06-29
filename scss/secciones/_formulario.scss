@@ -95,6 +95,10 @@
   .contenedor-formulario .formulario {
     @include size(15rem,auto);
     margin: 0 auto;
+
+    & .formulario-titulo{
+      font-size: 2.1rem;
+    }
   }
   
   .contacto {

@@ -5,7 +5,6 @@
 
 @mixin fondo {
     body{
-        @extend %estiloFondo;
         overflow-x: hidden;
     }
 }
