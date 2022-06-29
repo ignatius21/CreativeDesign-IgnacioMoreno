@@ -489,6 +489,9 @@ span {
       padding-top: 10rem;
       color: white;
       text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.75); }
+    .diseños .item .logos img {
+      width: 8rem;
+      height: 8rem; }
     .diseños .item:hover .cover {
       opacity: 1; }
     .diseños .item .nombre {

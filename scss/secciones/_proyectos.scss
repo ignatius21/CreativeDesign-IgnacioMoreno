@@ -59,6 +59,10 @@
       text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.75);
     }
 
+    & .logos img{
+      @include logo;
+    }
+
     &:hover .cover {
       opacity: 1;
     }

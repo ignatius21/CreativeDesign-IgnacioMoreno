@@ -8,3 +8,7 @@
         @extend %estiloFondo;
     }
 }
+
+@mixin logo {
+    @include size(8rem,8rem);
+}
