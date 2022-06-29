@@ -13,6 +13,9 @@
 body {
   background: linear-gradient(180deg, #fffcd6 0%, #e0e0e0 100%); }
 
+body {
+  overflow-x: hidden; }
+
 .presentacion-equipo {
   justify-content: center;
   padding-top: 1rem;
@@ -135,6 +138,9 @@ svg:hover {
       height: 1.2rem; }
   .logo a {
     font-size: 1.2rem; } }
+
+body {
+  overflow-x: hidden; }
 
 .contenedor-formulario .formulario {
   display: flex;
@@ -450,8 +456,13 @@ span {
   .titulo, .introduccion {
     font-size: 1rem; } }
 
+body {
+  overflow-x: hidden; }
+
 .diseños {
   display: flex; }
+  .diseños p {
+    font-size: 2.3rem; }
   .diseños h1 {
     margin-bottom: 4rem;
     padding-top: 4rem;
@@ -503,8 +514,6 @@ span {
       font-family: "Barlow Condensed", sans-serif;
       font-size: 4.5rem; }
 
-@media (max-width: 768px) {
-  .diseños h1 {
-    margin-bottom: 2.5rem;
-    padding-top: 2.5rem;
-    font-size: 2.4rem; } }
+@media (max-width: 425px) {
+  .intro .text-center {
+    font-size: 1.8rem; } }

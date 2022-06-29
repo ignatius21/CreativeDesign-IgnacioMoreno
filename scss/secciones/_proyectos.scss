@@ -5,6 +5,7 @@
 
   p {
     @extend %estiloParrafo;
+    font-size: 2.3rem;
   }
 
   h1 {
@@ -76,10 +77,12 @@
   }
 }
 
-@media (max-width: 768px) {
-  .diseños h1 {
-    margin-bottom: 2.5rem;
-    padding-top: 2.5rem;
-    font-size: 2.4rem;
+@media(max-width:425px) {
+  .intro{
+    & .text-center{
+      font-size: 1.8rem;
+    }
+    
   }
+  
 }
