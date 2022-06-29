@@ -10,12 +10,6 @@
   font-size: 1.2rem;
   color: #858585; }
 
-body {
-  background: linear-gradient(180deg, #fffcd6 0%, #e0e0e0 100%); }
-
-body {
-  overflow-x: hidden; }
-
 .presentacion-equipo {
   justify-content: center;
   padding-top: 1rem;
@@ -138,9 +132,6 @@ svg:hover {
       height: 1.2rem; }
   .logo a {
     font-size: 1.2rem; } }
-
-body {
-  overflow-x: hidden; }
 
 .contenedor-formulario .formulario {
   display: flex;
@@ -426,7 +417,7 @@ span {
   color: #5f5f5f;
   border-radius: 3.8rem;
   background: #e0e0e0;
-  box-shadow: 10px 10px 27px #d0d0d0, -10px -10px 27px #f0f0f0; }
+  box-shadow: 10px 10px 27px #d0d0d0, -10px -10px 27px #f7f0f0; }
 
 .introduccion {
   display: flex;
@@ -455,9 +446,6 @@ span {
     font-size: 1.3rem; }
   .titulo, .introduccion {
     font-size: 1rem; } }
-
-body {
-  overflow-x: hidden; }
 
 .diseños {
   display: flex; }
