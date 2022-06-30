@@ -16,4 +16,4 @@ para cada una de las otras paginas del proyecto.
 7- Se decide realizar el footer y la navegacion fusionados a la pagina,para que forme parte de la misma y genere un estilo visual
 diferente.
 8- Se utilizo una paleta de colores dentro de la gama de los grises, a exepcion de la pagina principal.
-9- 
+9- Se agrega el SiteMap al proyecto.
