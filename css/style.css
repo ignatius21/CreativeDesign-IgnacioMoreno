@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0; }
 
+/*VARIABLES*/
 .introduccion p, .diseños p {
   justify-content: center;
   text-align: justify;
@@ -10,6 +11,7 @@
   font-size: 1.2rem;
   color: #858585; }
 
+/*SECCIONES*/
 .presentacion-equipo {
   justify-content: center;
   padding-top: 1rem;
