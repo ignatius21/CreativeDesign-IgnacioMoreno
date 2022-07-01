@@ -1,6 +1,7 @@
 .header {
   display: flex;
   height: 5rem;
+  background-color: $gris8;
 }
   
 .navegacion {
@@ -25,13 +26,14 @@
     font-family: $fuentePrincipal;
     font-size: 1.7rem;
     text-transform: uppercase;
-    color: $gris1;
+    color: $gris2;
     }
   
   li:hover {
     transform: scale(1.25);
     transition: transform .5s ease;
   }
+  
 }
   
 @media (max-width: 768px) {

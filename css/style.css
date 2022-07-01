@@ -81,7 +81,8 @@
 .footer {
   display: flex;
   flex-wrap: wrap;
-  width: 100%; }
+  width: 100%;
+  background-color: #2e3442; }
   .footer .logo {
     padding: 1rem; }
     .footer .logo a {
@@ -230,7 +231,8 @@ svg:hover {
 
 .header {
   display: flex;
-  height: 5rem; }
+  height: 5rem;
+  background-color: #2e3442; }
 
 .navegacion {
   display: flex;
@@ -249,7 +251,7 @@ svg:hover {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.7rem;
     text-transform: uppercase;
-    color: #444444; }
+    color: #b3b3b3; }
   .navegacion li:hover {
     transform: scale(1.25);
     transition: transform .5s ease; }
@@ -357,7 +359,7 @@ body {
 
 .contenedor-bg {
   display: flex;
-  background-image: url(../img/fondo-bg.jpg);
+  background-image: url(../../img/fondo2-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -369,10 +371,7 @@ body {
     margin: 0 auto;
     padding-right: 3rem;
     font-family: "lobster";
-    font-size: 2.6rem;
-    background: linear-gradient(0deg, #1d515e 0%, white 100%);
-    -webkit-background-clip: text;
-    color: transparent; }
+    font-size: 4.2rem; }
 
 @media (max-width: 768px) {
   .contenedor-bg {
@@ -384,8 +383,11 @@ body {
       padding-right: 1rem; } }
 
 @media (max-width: 425px) {
-  .contenedor-bg .texto {
-    font-size: .6rem; } }
+  .contenedor-bg {
+    height: 100vh;
+    background-size: cover; }
+    .contenedor-bg .texto {
+      font-size: 1.7rem; } }
 
 .contenido {
   width: 60rem;
