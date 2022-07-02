@@ -439,6 +439,10 @@ body {
   .titulo, .introduccion {
     font-size: 1rem; } }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 .diseños {
   display: flex; }
   .diseños h2 {
