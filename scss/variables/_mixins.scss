@@ -12,3 +12,12 @@
 @mixin logo {
     @include size(8rem,8rem);
 }
+
+@mixin background {
+    .bg-general{
+        background-image: url(../../img/fondo2-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+}

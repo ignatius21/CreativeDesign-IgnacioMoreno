@@ -1,3 +1,5 @@
+@include  background;
+
 .contenido {
   @include size(60rem,57rem);
   margin: auto auto;
@@ -8,8 +10,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
-  color: $gris4;
+  font-size: 1.7rem;
+  color: $blanco;
   font-family: $fuentePrincipal;
   text-transform: uppercase;
   margin: 1rem;
@@ -22,18 +24,20 @@
   text-transform: uppercase;
   font-size: 1.8rem;
   background-color: $gris6;
-  color: $gris7;
-  border-radius: 3.8rem;
-  background: #e0e0e0;
-  box-shadow: 10px 10px 27px #d0d0d0, -10px -10px 27px #f7f0f0;
+  color: $blanco;
+  background: rgba( 255, 255, 255, 0.2 );
+  backdrop-filter: blur( 4px );
+  border-radius: 15px;
 }
   
 .introduccion {
   display: flex;
   padding: .5rem;
   margin: 0 auto;
+  
   p{
     @extend %estiloParrafo;
+    color: $blanco;
   }
 }
   

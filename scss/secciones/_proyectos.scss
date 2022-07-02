@@ -13,12 +13,13 @@
   p {
     @extend %estiloParrafo;
     font-size: 2.3rem;
+    color: #ffffff;
   }
 
   h1 {
     margin-bottom: 4rem;
     padding-top: 4rem;
-    color: $gris1;
+    color: #ffffff;
     text-transform: uppercase;
     font-family: $fuentePrincipal;
     font-size: 3.1rem;
@@ -43,7 +44,7 @@
     .box {
       text-align: center;
       background-repeat: no-repeat;
-      background-size: calc(100%);
+      background-size: cover;
       background-position: center;
       height: 28rem;
       position: relative;
