@@ -2,7 +2,7 @@
 
 .contenedor-bg {
   display: flex;
-  background-image: url(../../img/fondo2-bg.jpg);
+  background-image: url(../img/fondo2-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,10 +23,10 @@
 @media (max-width: 768px) {
   .contenedor-bg {
     @include size(100%,100vh);
-    background-size: contain;
+    background-size: cover;
     
     .texto {
-      font-size: 1.1rem;
+      font-size: 2.3rem;
       padding-right: 1rem;
     } 
   }

@@ -82,16 +82,7 @@
 .header2 {
   display: flex;
   height: 5rem;
-}
-  
-span {
-  border-bottom: .1rem solid $gris2;
-  width: 45rem;
-  padding: 1rem;
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 7rem;
+  background-color: $gris8;
 }
   
 .navegacion2 {
@@ -116,7 +107,7 @@ span {
     font-family: $fuentePrincipal;
     font-size: 1.7rem;
     text-transform: uppercase;
-    color: $gris1;
+    color: $gris2;
   }
   
   li:hover {
