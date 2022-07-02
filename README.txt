@@ -17,3 +17,5 @@ para cada una de las otras paginas del proyecto.
 diferente.
 8- Se utilizo una paleta de colores dentro de la gama de los grises, a exepcion de la pagina principal.
 9- Se agrega el SiteMap al proyecto.
+10- Se cambian titulos en pagina de NOSOTROS.
+
