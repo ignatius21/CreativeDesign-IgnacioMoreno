@@ -18,7 +18,7 @@
   font-family: "Barlow Condensed", sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #444444;
+  color: #ffffff;
   display: flex; }
 
 .contenedor-equipo {
@@ -50,11 +50,15 @@
         filter: grayscale(0%);
         cursor: pointer; }
     .contenedor-equipo .persona .cargo {
-      color: #858585;
+      color: #ffffff;
       text-align: center;
       padding: 1rem;
+      margin-top: .5rem;
       font-size: 1.3rem;
-      font-family: "Barlow Condensed", sans-serif; }
+      font-family: "Barlow Condensed", sans-serif;
+      background: rgba(255, 255, 255, 0.25);
+      backdrop-filter: blur(4px);
+      border-radius: 15px; }
 
 @media (max-width: 768px) {
   .presentacion-equipo {
@@ -353,7 +357,7 @@ body {
 
 .contenedor-bg {
   display: flex;
-  background-image: url(../img/fondo2-bg.jpg);
+  background-image: url(../img/fondo-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -385,7 +389,7 @@ body {
       font-size: 1.7rem; } }
 
 .bg-general {
-  background-image: url(../../img/fondo2-bg.jpg);
+  background-image: url(../../img/fondo-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }

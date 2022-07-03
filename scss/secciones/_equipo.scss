@@ -4,7 +4,7 @@
   font-family: $fuentePrincipal;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: $gris1;
+  color: $blanco;
   display: flex;
 }
   
@@ -43,11 +43,15 @@
         }
   }
         .cargo {
-          color: $gris3;
+          color: $blanco;
           text-align: center;
           padding: 1rem;
+          margin-top: .5rem;
           font-size: 1.3rem;
           font-family: $fuentePrincipal;
+          background: rgba( 255, 255, 255, 0.25 );
+          backdrop-filter: blur( 4px );
+          border-radius: 15px;
         }
   }
 }
