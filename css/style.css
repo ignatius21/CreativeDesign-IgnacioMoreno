@@ -241,7 +241,9 @@ svg:hover {
 .header {
   display: flex;
   height: 5rem;
-  background-color: #141414; }
+  background-color: #141414;
+  position: sticky;
+  top: 0; }
 
 .navegacion {
   display: flex;
@@ -297,7 +299,10 @@ svg:hover {
 .header2 {
   display: flex;
   height: 5rem;
-  background-color: #141414; }
+  background-color: #141414;
+  position: sticky;
+  top: 0;
+  z-index: 100; }
 
 .navegacion2 {
   display: flex;
@@ -482,8 +487,7 @@ body {
   .diseños .contenedor-diseño {
     padding: 5rem 0; }
   .diseños .item {
-    margin-bottom: 3rem;
-    filter: blur(0px); }
+    margin-bottom: 3rem; }
     .diseños .item .box {
       text-align: center;
       background-repeat: no-repeat;

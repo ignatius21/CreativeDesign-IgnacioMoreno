@@ -2,6 +2,8 @@
   display: flex;
   height: 5rem;
   background-color: $negro;
+  position: sticky;
+  top: 0;
 }
   
 .navegacion {
@@ -83,6 +85,9 @@
   display: flex;
   height: 5rem;
   background-color: $negro;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
   
 .navegacion2 {
