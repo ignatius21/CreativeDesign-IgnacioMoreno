@@ -14,15 +14,18 @@
     text-transform: uppercase;
     margin: 2rem;
     font-family: $fuentePrincipal;
-    color: $gris4;
+    color: $blanco;
     font-size: 1.8rem;
+    background: rgba( 255, 255, 255, 0.10 );
+    backdrop-filter: blur( 4px );
+    border-radius: 10px;
   }
 } 
   
 .form-label {
   font-family: $fuentePrincipal;
   font-size: 1.8rem;
-  color: $gris7;
+  color: $blanco;
 }
   
 .form-input {
@@ -32,7 +35,7 @@
   border-bottom: .1rem solid #cccccc;
   width: 100%;
   margin-bottom: 2rem;
-  color: $gris1;
+  color: $blanco;
   font-size: 1.8rem;
   font-family: $fuentePrincipal;
 }
@@ -43,7 +46,7 @@
   outline: none;
   border-bottom: .1rem solid #cccccc;
   margin-bottom: 2rem;
-  color: $gris1;
+  color: $blanco;
   font-family: $fuentePrincipal;
   border-radius: .7rem;
   resize: none;
@@ -66,7 +69,7 @@
   font-weight: bold;
   
   &:hover {
-    color: $gris5;
+    color: $blanco;
     transform: scale(1.07);
     transition: transform .3s ease;
   }
