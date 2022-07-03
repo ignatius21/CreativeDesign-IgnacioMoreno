@@ -18,11 +18,10 @@
   
   li {
     list-style: none;
-    transition: transform .6s;
 
     &:hover {
       transform: scale(1.25);
-      transition: transform .5s ease;
+      transition: transform .5s ease-in-out;
     }
     a {
       text-decoration: none;
@@ -34,9 +33,7 @@
       &:hover{
         color: $colorEnlaces; 
       }
-      }
-
-      
+      }   
   }   
 }
   
@@ -66,10 +63,12 @@
     @include size(100vw,auto);
   }
   
-  .navegacion ul {
-    flex-direction: column;
-    gap: .7rem;
-  }
+  .navegacion{
+    ul {
+      flex-direction: column;
+      gap: .7rem;
+    }
+  } 
 }
   
   /*Estilos navegacion general*/
@@ -98,6 +97,11 @@
   li {
     list-style: none;
     transition: transform .6s;
+
+    &:hover {
+      transform: scale(1.25);
+      transition: transform .5s ease-in-out;
+    }
   }
   
   a {
@@ -111,10 +115,7 @@
       color: $colorEnlaces; 
     }
   }
-  
-  li:hover {
-    transform: scale(1.25);
-  }
+
 }
   
 @media (max-width: 768px) {

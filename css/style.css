@@ -253,11 +253,10 @@ svg:hover {
     display: flex;
     gap: 10rem; }
   .navegacion li {
-    list-style: none;
-    transition: transform .6s; }
+    list-style: none; }
     .navegacion li:hover {
       transform: scale(1.25);
-      transition: transform .5s ease; }
+      transition: transform .5s ease-in-out; }
     .navegacion li a {
       text-decoration: none;
       font-family: "Barlow Condensed", sans-serif;
@@ -309,6 +308,9 @@ svg:hover {
   .navegacion2 li {
     list-style: none;
     transition: transform .6s; }
+    .navegacion2 li:hover {
+      transform: scale(1.25);
+      transition: transform .5s ease-in-out; }
   .navegacion2 a {
     text-decoration: none;
     font-family: "Barlow Condensed", sans-serif;
@@ -317,8 +319,6 @@ svg:hover {
     color: #b3b3b3; }
     .navegacion2 a:hover {
       color: rgba(255, 250, 200, 0.61); }
-  .navegacion2 li:hover {
-    transform: scale(1.25); }
 
 @media (max-width: 768px) {
   .header2 {
