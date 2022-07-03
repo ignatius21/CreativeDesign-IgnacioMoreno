@@ -241,9 +241,7 @@ svg:hover {
 .header {
   display: flex;
   height: 5rem;
-  background-color: #141414;
-  position: sticky;
-  top: 0; }
+  background-color: #141414; }
 
 .navegacion {
   display: flex;
