@@ -47,7 +47,7 @@ svg:hover {
   transition: transform .3s ease-in-out;
 }
   
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .footer {
     width: 100%;
   }
@@ -61,7 +61,7 @@ svg:hover {
   }
 }
   
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .footer {
     width: 100%;
   }

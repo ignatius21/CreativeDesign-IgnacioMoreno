@@ -51,7 +51,7 @@
   }
 } 
   
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contenido {
     @include size(37rem,auto);
   }
@@ -61,7 +61,7 @@
   }
 }
   
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .contenido {
     @include size(auto,auto);
   }

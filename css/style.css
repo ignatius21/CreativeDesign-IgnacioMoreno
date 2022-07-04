@@ -60,7 +60,7 @@
       backdrop-filter: blur(4px);
       border-radius: 15px; }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .presentacion-equipo {
     font-size: 1.1rem; }
   .contenedor-equipo {
@@ -74,7 +74,7 @@
     height: auto;
     margin: 1rem auto; } }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .contenedor-equipo {
     margin: .7rem; }
     .contenedor-equipo .persona {
@@ -118,7 +118,7 @@
 svg:hover {
   transition: transform .3s ease-in-out; }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .footer {
     width: 100%; }
   .iconos svg {
@@ -127,7 +127,7 @@ svg:hover {
   .logo a {
     font-size: 1.5rem; } }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .footer {
     width: 100%; }
   .iconos {
@@ -209,7 +209,7 @@ svg:hover {
     transform: scale(1.07);
     transition: transform .3s ease; }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contenedor-formulario .formulario {
     width: auto;
     height: auto;
@@ -221,7 +221,7 @@ svg:hover {
   .form-label {
     font-size: 1.3rem; } }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .contenedor-formulario .formulario {
     width: 15rem;
     height: auto;
@@ -266,7 +266,7 @@ svg:hover {
       .navegacion li a:hover {
         color: rgba(255, 250, 200, 0.61); }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .header {
     width: 100%; }
   .navegacion {
@@ -279,7 +279,7 @@ svg:hover {
     .navegacion a {
       font-size: 1.3rem; } }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header {
     width: 100vw;
     height: auto; }
@@ -360,7 +360,7 @@ body {
     font-size: 4.2rem;
     color: #ffffff; }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contenedor-bg {
     width: 100%;
     height: 100vh;
@@ -369,7 +369,7 @@ body {
       font-size: 2.3rem;
       padding-right: 1rem; } }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .contenedor-bg {
     height: 100vh;
     background-size: cover; }
@@ -425,14 +425,14 @@ body {
   filter: grayscale(25%);
   box-shadow: 0px 0px 20px -3px rgba(247, 207, 135, 0.57); }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contenido {
     width: 37rem;
     height: auto; }
   .presentacion {
     font-size: 1.2rem; } }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .contenido {
     width: auto;
     height: auto; }
@@ -503,6 +503,6 @@ body {
       font-family: "Barlow Condensed", sans-serif;
       font-size: 4.5rem; }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .intro .text-center {
     font-size: 1.8rem; } }

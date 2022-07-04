@@ -37,7 +37,7 @@
   }   
 }
   
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .header {
     width: 100%;
   }
@@ -58,7 +58,7 @@
   }
 }
   
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header {
     @include size(100vw,auto);
   }

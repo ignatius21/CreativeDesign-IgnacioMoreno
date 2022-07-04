@@ -58,7 +58,7 @@
   
 
    
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px){
   .presentacion-equipo {
     font-size: 1.1rem;
   }
@@ -78,7 +78,7 @@
     }
 }
   
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .contenedor-equipo{
     margin: .7rem;
     .persona {

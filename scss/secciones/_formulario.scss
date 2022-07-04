@@ -75,7 +75,7 @@
   }
 }
   
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contenedor-formulario .formulario {
     @include size(auto,auto);
     margin: 3rem;
@@ -94,7 +94,7 @@
   }
 }
   
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .contenedor-formulario{
     & .formulario {
       @include size(15rem,auto);
