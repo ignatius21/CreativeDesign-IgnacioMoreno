@@ -64,19 +64,21 @@ svg:hover {
 @media screen and (max-width: 425px) {
   .footer {
     width: 100%;
+    .logo a {
+      font-size: 1.2rem;
+    }
+    .iconos {
+      gap: 2rem;
+      margin-right: 2rem;
+      align-items: center;
+    
+      svg {
+        @include size(1.2rem,1.2rem);
+        }
+    }
   }
   
-  .iconos {
-    gap: 2rem;
-    margin-right: 2rem;
-    align-items: center;
   
-    svg {
-      @include size(1.2rem,1.2rem);
-      }
-  }
   
-  .logo a {
-    font-size: 1.2rem;
-  }
+  
 }

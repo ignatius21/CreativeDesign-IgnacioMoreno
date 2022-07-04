@@ -130,15 +130,15 @@ svg:hover {
 @media screen and (max-width: 425px) {
   .footer {
     width: 100%; }
-  .iconos {
-    gap: 2rem;
-    margin-right: 2rem;
-    align-items: center; }
-    .iconos svg {
-      width: 1.2rem;
-      height: 1.2rem; }
-  .logo a {
-    font-size: 1.2rem; } }
+    .footer .logo a {
+      font-size: 1.2rem; }
+    .footer .iconos {
+      gap: 2rem;
+      margin-right: 2rem;
+      align-items: center; }
+      .footer .iconos svg {
+        width: 1.2rem;
+        height: 1.2rem; } }
 
 .contenedor-formulario .formulario {
   display: flex;
@@ -283,9 +283,11 @@ svg:hover {
   .header {
     width: 100vw;
     height: auto; }
-  .navegacion ul {
-    flex-direction: column;
-    gap: .7rem; } }
+    .header .navegacion ul {
+      flex-direction: column;
+      gap: 1rem; }
+    .header .navegacion a {
+      font-size: 1.3rem; } }
 
 /*Estilos navegacion general*/
 .header2 {

@@ -61,13 +61,15 @@
 @media screen and (max-width: 425px) {
   .header {
     @include size(100vw,auto);
-  }
-  
-  .navegacion {
-    ul {
-      flex-direction: column;
-      gap: .7rem;
-    }
+    & .navegacion{
+      ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      a{
+        font-size: 1.3rem;
+      }
+    } 
   } 
 }
   
