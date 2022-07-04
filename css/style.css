@@ -319,7 +319,7 @@ svg:hover {
     .navegacion2 a:hover {
       color: rgba(255, 250, 200, 0.61); }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .header2 {
     width: 100%; }
   .navegacion2 {
@@ -332,7 +332,7 @@ svg:hover {
     .navegacion2 a {
       font-size: 1.3rem; } }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header2 {
     width: 100vw;
     height: auto; }

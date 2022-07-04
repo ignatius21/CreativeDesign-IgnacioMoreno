@@ -19,5 +19,7 @@ diferente.
 9- Se agrega el SiteMap al proyecto.
 10- Se cambian titulos en pagina de NOSOTROS.
 11- Se cambia la posicion de la barra de navegacion para que quede fija al navegar por la pagina.
-12- Se cambia la visual general del proyecto,dandole mas color y dinamismo al mismo.   
+12- Se cambia la visual general del proyecto,dandole mas color y dinamismo al mismo.
+13- Se ajustan los cambios a diferentes MediaQueries.
+   
 

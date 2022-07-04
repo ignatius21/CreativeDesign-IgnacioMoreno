@@ -63,7 +63,7 @@
     @include size(100vw,auto);
   }
   
-  .navegacion{
+  .navegacion {
     ul {
       flex-direction: column;
       gap: .7rem;
@@ -117,7 +117,7 @@
 
 }
   
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .header2 {
     width: 100%;
   }
@@ -138,14 +138,16 @@
   }
 }
   
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header2 {
     @include size(100vw,auto);
   }
   
-  .navegacion2 ul {
-    flex-direction: column;
-    gap: 1rem;
-  }
+  .navegacion2{
+    ul {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  } 
 }
   
