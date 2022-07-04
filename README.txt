@@ -3,7 +3,7 @@
 Para este proyecto se intenta emular un sitio web dedicado a la creacion y mantenimiento de paginas webs.
 Se busco darle un estilo minimalista,para que sea agradable a la vista y mantener el foco de atencion en las busquedas centrales.
 
-.Cambio Realizados:
+.Cambios Realizados:
 
 1- Se agregan los enlaces "meta" con las "keywords" claves en cada pagina para optimizr la busqueda.
 2- Se incorpora Boostrap en una de las paginas del proyecto (proyectos).
