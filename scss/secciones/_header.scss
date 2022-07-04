@@ -18,10 +18,10 @@
   
   li {
     list-style: none;
+    transition: transform .6s;
 
     &:hover {
       transform: scale(1.25);
-      transition: transform .5s ease-in-out;
     }
     a {
       text-decoration: none;
@@ -100,7 +100,6 @@
 
     &:hover {
       transform: scale(1.25);
-      transition: transform .5s ease-in-out;
     }
   }
   
