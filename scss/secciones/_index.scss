@@ -14,8 +14,10 @@
     margin: 0 auto;
     padding-right: 3rem;
     font-family: $fuenteSecundaria;
+    color: $colorEnlaces;
     font-size: 4.2rem;
-    color: $blanco;
+    @extend %shadow;
+    filter: blur(.8px);
   }
 }
     
