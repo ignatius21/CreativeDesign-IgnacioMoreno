@@ -16,10 +16,12 @@
     font-family: $fuenteSecundaria;
     color: $colorEnlaces;
     font-size: 4.2rem;
-    @extend %shadow;
     filter: blur(.8px);
+    @extend %shadow;
   }
 }
+
+
     
   
 @media screen and (max-width: 1024px) {
