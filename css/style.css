@@ -360,9 +360,7 @@ body {
     padding-right: 3rem;
     font-family: "lobster";
     font-size: 4.2rem;
-    background: linear-gradient(0deg, #d6cfae 0%, #42412c 100%);
-    -webkit-background-clip: text;
-    color: transparent; }
+    color: #ffffff; }
 
 @media screen and (max-width: 1024px) {
   .contenedor-bg {

@@ -15,11 +15,10 @@
     padding-right: 3rem;
     font-family: $fuenteSecundaria;
     font-size: 4.2rem;
-    background: linear-gradient(0deg, rgb(214, 207, 174) 0%, rgba(66,65,44,1) 100%);
-    -webkit-background-clip: text;
-    color: transparent;
-  }
+    color: $blanco;
 }
+  }
+
     
   
 @media screen and (max-width: 1024px) {
