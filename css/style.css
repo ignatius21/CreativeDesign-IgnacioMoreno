@@ -350,7 +350,7 @@ body {
 
 .contenedor-bg {
   display: flex;
-  background-image: url(../img/fondo-bg.jpg);
+  background-image: url(../img/fondo-bg.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -383,7 +383,7 @@ body {
       font-size: 1.7rem; } }
 
 .bg-general {
-  background-image: url(../../img/fondo-bg.jpg);
+  background-image: url(../../img/fondo-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
