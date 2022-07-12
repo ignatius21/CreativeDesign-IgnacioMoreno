@@ -496,7 +496,7 @@ body {
       opacity: 0;
       transition: opacity 0.15s ease-in;
       padding-top: 10rem;
-      color: white;
+      color: #ffffff;
       text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.75); }
     .diseños .item .logos img {
       width: 8rem;
