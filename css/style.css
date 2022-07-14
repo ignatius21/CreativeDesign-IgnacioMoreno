@@ -244,7 +244,12 @@ svg:hover {
 .header {
   display: flex;
   height: 5rem;
-  background-color: #141414; }
+  background-color: #141414;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px); }
 
 .navegacion {
   display: flex;
@@ -260,14 +265,15 @@ svg:hover {
     transition: transform .6s; }
     .navegacion li:hover {
       transform: scale(1.25); }
-    .navegacion li a {
-      text-decoration: none;
-      font-family: "Barlow Condensed", sans-serif;
-      font-size: 1.7rem;
-      text-transform: uppercase;
-      color: #b3b3b3; }
-      .navegacion li a:hover {
-        color: rgba(255, 250, 200, 0.61); }
+  .navegacion a {
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ffffff; }
+    .navegacion a:hover {
+      color: rgba(255, 250, 200, 0.61); }
 
 @media screen and (max-width: 1024px) {
   .header {
@@ -286,62 +292,7 @@ svg:hover {
   .header {
     width: 100vw;
     height: auto; }
-    .header .navegacion ul {
-      flex-direction: column;
-      gap: 1rem; }
-    .header .navegacion a {
-      font-size: 1.3rem; } }
-
-/*Estilos navegacion general*/
-.header2 {
-  display: flex;
-  height: 5rem;
-  background-color: #141414;
-  position: sticky;
-  top: 0;
-  z-index: 100; }
-
-.navegacion2 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0 auto;
-  word-spacing: 10rem; }
-  .navegacion2 ul {
-    display: flex;
-    gap: 10rem; }
-  .navegacion2 li {
-    list-style: none;
-    transition: transform .6s; }
-    .navegacion2 li:hover {
-      transform: scale(1.25); }
-  .navegacion2 a {
-    text-decoration: none;
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    color: #b3b3b3; }
-    .navegacion2 a:hover {
-      color: rgba(255, 250, 200, 0.61); }
-
-@media screen and (max-width: 1024px) {
-  .header2 {
-    width: 100%; }
-  .navegacion2 {
-    width: 100%;
-    justify-content: center; }
-    .navegacion2 ul {
-      gap: 4rem;
-      align-items: center;
-      margin: 1rem; }
-    .navegacion2 a {
-      font-size: 1.3rem; } }
-
-@media screen and (max-width: 425px) {
-  .header2 {
-    width: 100vw;
-    height: auto; }
-  .navegacion2 ul {
+  .navegacion ul {
     flex-direction: column;
     gap: 1rem; } }
 
