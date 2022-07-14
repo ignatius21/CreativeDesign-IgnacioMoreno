@@ -13,13 +13,13 @@
   p {
     @extend %estiloParrafo;
     font-size: 2.3rem;
-    color: #ffffff;
+    color: $blanco;
   }
 
   h1 {
     margin-bottom: 4rem;
     padding-top: 4rem;
-    color: #ffffff;
+    color: $blanco;
     text-transform: uppercase;
     font-family: $fuentePrincipal;
     font-size: 3.1rem;
@@ -84,6 +84,8 @@
     }
   }
 }
+
+
 
 @media screen and (max-width:425px) {
   .intro{
