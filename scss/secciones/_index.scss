@@ -21,9 +21,110 @@
   }
 }
 
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.8s;
+  background:rgba( 255, 255, 255, 0.010 );
+  backdrop-filter: blur( 15px );
 
-    
-  
+
+  &.active {
+    top: -100%;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+
+    ul {
+      position: relative;
+
+      li {
+        position: relative;
+        list-style: none;
+        padding: 0 2rem;
+        margin: .5rem 0;
+        overflow: hidden;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: $colorEnlaces;
+          transition: transform 0.3s ease-in-out;
+          transform: scaleY(0);
+          transform-origin: bottom;
+        }
+
+        &:hover:before {
+          transition: transform 0.5s ease-in-out;
+          transform: scaleY(1);
+          transform-origin: top;
+        }
+
+        a {
+          position: relative;
+          font-family: $fuentePrincipal;
+          color: $blanco;
+          text-decoration: none;
+          font-size: 4rem;
+          font-weight: bold;
+          line-height: 1em;
+          display: inline-block;
+          text-transform: uppercase;
+          transition: 0.3s ease-in-out;
+
+          &::before {
+            content: attr(data-text);
+            position: absolute;
+            bottom: -100%;
+            left: 0;
+            color: $negro;
+          }
+        }
+
+        &:hover a {
+          transform: translateY(-100%);
+        }
+      }
+    }
+  }
+}
+
+.icono {
+  position: fixed;
+  top: 2rem;
+  right: 0rem;
+  width: 5rem;
+  height: 5rem;
+  background: transparent url(../../img/menuClose.png);
+  background-size: 3rem;
+  cursor: pointer;
+  background-repeat: no-repeat;
+
+  &.active {
+    background: transparent url(../../img/menuOpen.png);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+  }
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
   .contenedor-bg {
     @include size(100%,100vh);
@@ -34,6 +135,13 @@
       padding-right: 1rem;
     } 
   }
+  .icono{
+    top: 1rem;
+    right: 0;
+    width: 4rem;
+    height: 4rem;
+  }
+
 }
   
 @media screen and (max-width: 425px) {
@@ -44,5 +152,10 @@
       font-size: 1.7rem;
     }
   }
-  
+  .icono{
+    top: 1rem;
+    right: .7rem;
+    width: 3rem;
+    height: 3rem;
+  }
 }
