@@ -21,3 +21,9 @@
         background-position: center center;
       }
 }
+
+@mixin smooth{
+    html{
+        scroll-behavior: smooth;
+    }
+}

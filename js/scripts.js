@@ -4,3 +4,4 @@ function menuToggle() {
     nav.classList.toggle("active")
     toggle.classList.toggle("active")
 }
+

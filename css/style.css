@@ -299,6 +299,9 @@ svg:hover {
 body {
   overflow-x: hidden; }
 
+html {
+  scroll-behavior: smooth; }
+
 .contenedor-bg {
   display: flex;
   background-image: url(../img/fondo-bg.webp);
