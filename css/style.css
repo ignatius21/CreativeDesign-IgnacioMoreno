@@ -389,11 +389,13 @@ html {
   width: 5rem;
   height: 5rem;
   background: transparent url(../../img/menuClose.png);
+  filter: invert(50%);
   background-size: 3rem;
   cursor: pointer;
   background-repeat: no-repeat; }
   .icono.active {
     background: transparent url(../../img/menuOpen.png);
+    filter: invert(50%);
     background-size: 3rem;
     background-repeat: no-repeat; }
 
