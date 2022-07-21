@@ -21,13 +21,14 @@ diferente.
 11- Se cambia la posicion de la barra de navegacion para que quede fija al navegar por la pagina.
 12- Se cambia la visual general del proyecto,dandole mas color y dinamismo al mismo.
 13- Se ajustan los cambios a diferentes MediaQueries.
-14- Se agregan las imagenes del proyecto en un nuevo formato(webp) para darle mas dinamismo al sitio.
+14- Se agregan las imagenes del proyecto en un nuevo formato(webp) para darle mas fluidez al sitio.
 
 // ULTIMOS CAMBIOS REALIZADOS //
 
 15- Se decide cambiar completamente el menu de navegacion principal,dandole,mas dinamismo y fluidez al mismo.
 16- Se ajustan las MediaQueries para el nuevo estilo de menu.
 17 - Se decide agregar un archivo de Javascript para realizar el menu,evitando utilizar Boostrap.
+18- Se incorpora mas informacion a la seccion de "proyectos".
 
    
 

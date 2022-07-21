@@ -30,7 +30,6 @@
     font-size: 1.8rem;
     max-width: 50rem;
     margin: 0 auto;
-
   }
 
   .contenedor-diseño {
@@ -85,6 +84,55 @@
   }
 }
 
+.title{
+  color: $blanco;
+  text-transform: uppercase;
+  font-family: $fuentePrincipal;
+  font-size: 3.8rem;
+  font-weight: bold;
+}
+.subtitulo{
+  color: $blanco;
+  text-transform: uppercase;
+  font-family: $fuentePrincipal;
+  font-size: 1.5rem;
+}
+
+.card{
+  background-color: transparent;
+  border: none;
+
+  &:hover{
+    background: rgba( 255, 255, 255, 0.07 );
+    backdrop-filter: blur( 4px );
+    cursor: pointer;
+  }
+
+  .btn{
+    background-color: $rosa;
+    border: none;
+
+    &:hover{
+      background-color: $azul;
+    }
+  }
+  .card-title{
+    color: $blanco;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: $fuentePrincipal;
+    font-weight: bold;
+  }
+  .card-text{
+    color: $blanco;
+    text-transform: uppercase;
+    font-family: $fuentePrincipal;
+  }
+}
+
+
+
+
 
 
 
@@ -94,6 +142,10 @@
     & .text-center{
       font-size: 1.8rem;
     }  
-  } 
-}
+  }
+  .subtitulo{
+    font-size: 1.3rem !important;
+  }
+} 
+
 
