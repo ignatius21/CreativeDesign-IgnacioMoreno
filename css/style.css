@@ -684,4 +684,6 @@ html {
     font-size: 1.8rem;
     margin-bottom: 3rem; }
   .contenedor {
-    margin-bottom: 3rem; } }
+    margin-bottom: 3rem; }
+  .overlay p {
+    padding: 0; } }
