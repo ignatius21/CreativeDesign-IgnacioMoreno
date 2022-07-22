@@ -14,6 +14,12 @@
 .contenedor-bg .texto {
   text-shadow: -1px -1px 1px #efede3, 0px 1px 0 #2e2e2e, 0px 2px 0 #2c2c2c, 0px 3px 0 #2a2a2a, 0px 4px 0 #282828, 0px 5px 0 #262626, 0px 6px 0 #242424, 0px 7px 0 #222, 0px 8px 0 #202020, 0px 9px 0 #1e1e1e, 0px 10px 0 #1c1c1c, 0px 11px 0 #1a1a1a, 0px 12px 0 #181818, 0px 13px 0 #161616, 0px 14px 0 #141414, 0px 15px 0 #121212, 2px 20px 5px rgba(0, 0, 0, 0.9), 5px 23px 5px rgba(0, 0, 0, 0.3), 8px 27px 8px rgba(0, 0, 0, 0.5), 8px 28px 35px rgba(0, 0, 0, 0.9); }
 
+.efecto h2, .efecto p {
+  transform: translateY(-20rem);
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+  font-family: "Barlow Condensed", sans-serif; }
+
 /*SECCIONES*/
 .presentacion-equipo {
   justify-content: center;
@@ -588,8 +594,94 @@ html {
     text-transform: uppercase;
     font-family: "Barlow Condensed", sans-serif; }
 
+.ultimos-proyectos {
+  margin: 5rem auto; }
+
+.caida-objeto {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  box-shadow: 0px 0px 20px -3px rgba(247, 207, 135, 0.57); }
+  .caida-objeto:hover {
+    box-shadow: 0px 0px 20px -3px rgba(247, 207, 135, 0.95); }
+  .caida-objeto .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0; }
+  .caida-objeto img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto; }
+  .caida-objeto h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    background: rgba(167, 54, 129, 0.5); }
+  .caida-objeto p {
+    font-style: italic;
+    position: relative;
+    color: #ffffff;
+    padding: 1rem 2rem 2rem;
+    text-align: center; }
+
+.efecto .overlay {
+  background-color: rgba(89, 25, 119, 0.25);
+  top: -20rem;
+  opacity: 0;
+  transition: all 0.5s ease-out; }
+
+.efecto h2 {
+  font-weight: bold; }
+
+.efecto p {
+  font-size: 1.8rem; }
+
+.efecto .btn {
+  transform: translateY(-20rem);
+  transition: all 0.3s ease-in-out; }
+  .efecto .btn:hover {
+    background-color: #a73681;
+    border: none;
+    cursor: pointer; }
+
+.efecto:hover .overlay {
+  opacity: 1;
+  top: 0px;
+  transition-delay: 0s; }
+
+.efecto:hover h2 {
+  transform: translateY(0px);
+  transition-delay: 0.3s; }
+
+.efecto:hover p {
+  transform: translateY(0px);
+  transition-delay: 0.3s; }
+
+.efecto:hover .btn {
+  transform: translateY(0px);
+  transition-delay: 0s; }
+
+@media screen and (max-width: 1024px) {
+  .overlay p {
+    font-size: 1.2rem; } }
+
 @media screen and (max-width: 425px) {
   .intro .text-center {
     font-size: 1.8rem; }
   .subtitulo {
-    font-size: 1.3rem !important; } }
+    font-size: 1.3rem !important; }
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 3rem; }
+  .contenedor {
+    margin-bottom: 3rem; } }

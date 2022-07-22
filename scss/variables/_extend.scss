@@ -27,8 +27,14 @@
       2px 20px 5px rgba(0, 0, 0, 0.9),
       5px 23px 5px rgba(0, 0, 0, 0.3),
       8px 27px 8px rgba(0, 0, 0, 0.5),
-      8px 28px 35px rgba(0, 0, 0, 0.9);
-        
+      8px 28px 35px rgba(0, 0, 0, 0.9);      
+}
+
+%estiloProyecto{
+    transform: translateY(-20rem);
+    transition: all 0.3s ease-in-out;
+    color: $blanco;
+    font-family: $fuentePrincipal;
 }
 
 

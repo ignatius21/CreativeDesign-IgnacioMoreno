@@ -130,12 +130,117 @@
   }
 }
 
+.ultimos-proyectos{
+  margin: 5rem auto;
+}
 
+.caida-objeto {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  box-shadow: 0px 0px 20px -3px rgba(247, 207, 135, 0.57);
 
+  &:hover{
+    box-shadow: 0px 0px 20px -3px rgba(247, 207, 135, 0.95);
+  }
 
+  .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+  }
 
+  img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
 
+  h2 {
+    text-transform: uppercase;
+    color: $blanco;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    background: rgba($rosa, 0.5);
+  }
 
+  p {
+    font-style: italic;
+    position: relative;
+    color: $blanco;
+    padding: 1rem 2rem 2rem;
+    text-align: center;
+  }
+}
+
+.efecto {
+  .overlay {
+    background-color: rgba(89, 25, 119, 0.25);
+    top: -20rem;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+  }
+
+  h2 {
+    @extend %estiloProyecto;
+    font-weight: bold;
+  }
+
+  p {
+    @extend %estiloProyecto;
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    transform: translateY(-20rem);
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+      background-color: $rosa;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  &:hover {
+    .overlay {
+      opacity: 1;
+      top: 0px;
+      transition-delay: 0s;
+    }
+
+    h2 {
+      transform: translateY(0px);
+      transition-delay: 0.3s;
+    }
+
+    p {
+      transform: translateY(0px);
+      transition-delay: 0.3s;
+    }
+
+    .btn {
+      transform: translateY(0px);
+      transition-delay: 0s;
+    }
+  }
+}
+@media screen and (max-width:1024px) {
+  .overlay{
+    p{
+      font-size: 1.2rem;
+    }
+  }
+}
 
 @media screen and (max-width:425px) {
   .intro{
@@ -146,6 +251,12 @@
   .subtitulo{
     font-size: 1.3rem !important;
   }
-} 
-
+  .title{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+  .contenedor{
+    margin-bottom: 3rem;
+  }
+}
 
